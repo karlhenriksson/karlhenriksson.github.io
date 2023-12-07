@@ -1,7 +1,5 @@
 "use strict";
 
-// TODO: Make the alert appear in the card like the output text (more consts?)
-
 const mainCard = document.getElementById("mainCard");
 const inputField = document.getElementById("codeEntry");
 
