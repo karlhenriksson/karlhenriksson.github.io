@@ -16,10 +16,10 @@ const easterEggs = {
     "aaaa": "Varför skriker du så mycket?",
     "aaaaa": "Varför skriker du så mycket?",
     "1234": "567×89=???",
-    "50463": "1+2+3+4+...+99+100=???"
-    "5050": "To be or not to be, that is [???]"
-    "the question": "The question is: How many days are there in February next year?"
-    "29": "Congratulations. You collected: 120 gold"
+    "50463": "1+2+3+4+...+99+100=???",
+    "5050": "To be or not to be, that is [???]",
+    "the question": "The question is: How many days are there in February next year?",
+    "29": "<a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>https://www.desmos.com/calculator/jadlzaifbr</a>",
     "lorem ipsum": "Dolor sit amet, consectetur adipisicing elit.",
     "knut": "Det är jag, ja.",
     "admin": "You have been granted admin rights. Please proceed to <a href='https://imgs.xkcd.com/comics/incident.png'>the admin control panel</a>.",
