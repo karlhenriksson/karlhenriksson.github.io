@@ -1,9 +1,6 @@
 "use strict";
-/*
 
-Creating a secret santa thing.
-
-*/
+// TODO: Make the alert appear in the card like the output text (more consts?)
 
 // Stores codes, along with the recipient and the person with the code
 // (keys are all lower case)
@@ -47,7 +44,7 @@ document.getElementById("run").addEventListener("click", ()=>{
     if(codeToPeople[input]) {
         const givenObj = codeToPeople[input];
         // Do one last check to make sure that the person is the one they are
-        let showRecipient = confirm("Denna kod är registrerad till " + givenObj.giver + ". Är det du?", "Ja", "Nej");
+        let showRecipient = confirm("Denna kod är registrerad till " + givenObj.giver + ". Är det du?");
 
         if(showRecipient) {
             outputText = "Din hemliga mottagare är: " + givenObj.recipient;
