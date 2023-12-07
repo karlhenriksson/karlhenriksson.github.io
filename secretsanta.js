@@ -15,6 +15,8 @@ const codeToPeople = {
 const easterEggs = {
     "bonx": "Kom till Karl så får du en gratis kopp choklad. (endast de 3 första som kommer till mig får detta)",
     "aaa": "Varför skriker du så mycket?",
+    "aaaa": "Varför skriker du så mycket?",
+    "aaaaa": "Varför skriker du så mycket?",
     "1234": "56789",
     "lorem ipsum": "Dolor sit amet, consectetur adipisicing elit.",
     "knut": "Det är jag, ja.",
