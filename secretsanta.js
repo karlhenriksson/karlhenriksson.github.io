@@ -27,17 +27,18 @@ const easterEggs = {
 }
 
 const mainCard = document.getElementById("mainCard");
-let output = document.createElement("p");
+const inputField = document.getElementById("codeEntry");
 
+// Final output
+const output = document.createElement("p");
 output.style = "margin:0.5cm; margin-top:0cm";
 output.id = "output";
 
-// Add a listener to the button to decode the given code
-document.getElementById("run").addEventListener("click", ()=>{
-    let input = document.getElementById("codeEntry").value.toLowerCase();
+function submitCode(input){
     console.log("Input = " + input);
+    const givenObj = codeToPeople[input];
 
-    let outputText = "Koden matchade inte någon handling."
+    let outputText = "Koden matchade inte någon handling.";
 
     // If no output paragraph exists, create a new one
     if(!document.getElementById("output")) {
@@ -47,14 +48,14 @@ document.getElementById("run").addEventListener("click", ()=>{
 
     // If this code is a valid one...
     if(codeToPeople[input]) {
-        const givenObj = codeToPeople[input];
         // Do one last check to make sure that the person is the one they are
-        let showRecipient = confirm("Denna kod är registrerad till " + givenObj.giver + ". Är det du?");
+        let showRecipient = confirm("Vill du fortsätta? Detta visar mottagaren för " + givenObj.giver + ".");
 
         if(showRecipient) {
             outputText = "Din hemliga mottagare är: " + givenObj.recipient;
         } else {
-            outputText = "Handlingen avbröts."
+            outputText = "Handlingen avbröts.";
+            inputField.value = "";
         }
     }
 
@@ -66,7 +67,18 @@ document.getElementById("run").addEventListener("click", ()=>{
 
     // Modify output
     output.innerHTML = outputText;
-})
+}
+
+// Add a listener to the button to decode the given code
+document.getElementById("run").addEventListener("click", 
+    ()=>submitCode(inputField.value.toLowerCase())
+);
+
+// Add a listener to run the input code when it is submitted
+// https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event
+document.querySelector("input").addEventListener("change", 
+    ()=>submitCode(inputField.value.toLowerCase())
+)
 
 // Add an event listener to remove output paragraph
 document.getElementById("reset").addEventListener(
