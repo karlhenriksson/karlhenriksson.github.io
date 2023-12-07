@@ -49,7 +49,7 @@ function submitCode(input){
     // If this code is a valid one...
     if(codeToPeople[input]) {
         // Do one last check to make sure that the person is the one they are
-        let showRecipient = confirm("Vill du fortsätta? Detta visar mottagaren för " + givenObj.giver + ".");
+        let showRecipient = confirm("Vill du fortsätta? Detta visar mottagaren för: " + givenObj.giver + ".");
 
         if(showRecipient) {
             outputText = "Din hemliga mottagare är: " + givenObj.recipient;
