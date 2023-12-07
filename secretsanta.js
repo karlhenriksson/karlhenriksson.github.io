@@ -26,7 +26,7 @@ function submitCode(input){
         let showRecipient = confirm("Vill du fortsätta? Detta visar mottagaren för: " + givenObj.giver + ".");
 
         if(showRecipient) {
-            outputText = "Din hemliga mottagare är: " + givenObj.recipient;
+            outputText = "Din hemliga mottagare är " + givenObj.recipient + ". Du ska ge denna person en passande present för under 50kr.";
         } else {
             outputText = "Handlingen avbröts.";
             inputField.value = "";
