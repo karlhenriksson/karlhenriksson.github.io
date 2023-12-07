@@ -76,9 +76,12 @@ document.getElementById("run").addEventListener("click",
 
 // Add a listener to run the input code when it is submitted
 // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event
-document.querySelector("input").addEventListener("change", 
-    ()=>submitCode(inputField.value.toLowerCase())
-)
+// https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
+if(!navigator.userAgentData.mobile) {
+    document.querySelector("input").addEventListener("change", 
+        ()=>submitCode(inputField.value.toLowerCase())
+    )
+}
 
 // Add an event listener to remove output paragraph
 document.getElementById("reset").addEventListener(
