@@ -45,7 +45,7 @@ document.getElementById("run").addEventListener("click", ()=>{
     if(codeToPeople[input]) {
         const givenObj = codeToPeople[input];
         // Do one last check to make sure that the person is the one they are
-        let showRecipient = confirm("This code is registered to " + givenObj.giver + ". Is that you?");
+        let showRecipient = confirm("Denna kod är registrerad till " + givenObj.giver + ". Är det du?", "Ja", "Nej");
 
         if(showRecipient) {
             outputText = "Din hemliga mottagare är: " + givenObj.recipient;
