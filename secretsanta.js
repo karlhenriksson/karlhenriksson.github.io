@@ -10,7 +10,7 @@ const codeToPeople = {
 
 // Om du är här, var vänlig spoila inte detta!  /Karl
 const easterEggs = {
-    "bånx": "Testa 'bonx' i stället. Det är den bättre stavningen.",
+    "bånx": "Testa 'Bonx' i stället. Det är den bättre stavningen.",
     "bonx": "Kom till Karl så får du en gratis kopp choklad. (endast de 3 första som kommer till mig får detta, så du tjänar på att hålla denna funktionen hemlig tills efter att du fått din kopp)",
     "aaa": "Varför skriker du så mycket?",
     "aaaa": "Varför skriker du så mycket?",
