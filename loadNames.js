@@ -14,6 +14,33 @@ var vänlig titta inte här!
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 */
 
 // Stores codes, along with the recipient and the person with the code
@@ -22,7 +49,7 @@ const codeToPeople = {
     "0102": { giver:"Ture", recipient:"Knut" },
 }
 
-// Om du är här, var vänlig spoila inte detta!  /Karl
+// Om du trots allt är här, var vänlig spoila i alla fall inte detta!  /Karl
 const easterEggs = {
     "bånx": "Testa 'Bonx' i stället. Det är den bättre stavningen.",
     "bonx": "Kom till Karl så får du en gratis kopp choklad. (endast de 3 första som kommer till mig får detta, så du tjänar på att hålla denna funktion hemlig tills efter att du fått din kopp)",
