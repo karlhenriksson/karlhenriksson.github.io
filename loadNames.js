@@ -84,6 +84,7 @@ const easterEggs = {
     "aaaa": "Varför skriker du så mycket?",
     "aaaaa": "Varför skriker du så mycket?",
     "123": "567×89=???",
+    "1234": "567×89=???",
     "12345": "567×89=???",
     "123456": "567×89=???",
     "1234567": "567×89=???",
