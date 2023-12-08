@@ -23,7 +23,7 @@ function submitCode(input){
     // If this code is a valid one...
     if(codeToPeople[input]) {
         // Do one last check to make sure that the person is the one they are
-        let showRecipient = confirm("Vill du fortsätta? Detta visar mottagaren för: " + givenObj.giver + ".");
+        let showRecipient = confirm("Detta kommer visa mottagaren för: " + givenObj.giver + ". Om detta inte är du, var vänlig fortsätt inte.");
 
         if(showRecipient) {
             outputText = "Din hemliga mottagare är " + givenObj.recipient + ". Du ska ge denna person en passande present för under 50kr.";
@@ -63,5 +63,6 @@ document.getElementById("reset").addEventListener(
     ()=>{
         if(document.getElementById("output")) 
             document.getElementById("output").remove();
+        inputField.value = "";
     }
 );
