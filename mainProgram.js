@@ -36,8 +36,8 @@ function submitCode(input){
 
     // Else, if this code is an easter-eggy one...
     for(const regexp of Object.keys(easterEggs)) {
-        // Set the output text to to the egg
-        if(input.match(regexp)) outputText = easterEggs[regexp];
+      // Set the output text to to the egg
+      if(input.match(regexp)) outputText = easterEggs[regexp];
     }
 
     // Modify output
