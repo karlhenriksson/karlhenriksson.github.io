@@ -1,4 +1,5 @@
 "use strict";
+console.log("Version 1.3");
 
 const mainCard = document.getElementById("mainCard");
 const inputField = document.getElementById("codeEntry");
@@ -34,9 +35,9 @@ function submitCode(input){
     }
 
     // Else, if this code is an easter-eggy one...
-    if(easterEggs[input.toLowerCase()]) {
+    for(const regexp of easterEggs.keys()) {
         // Set the output text to to the egg
-        outputText = easterEggs[input.toLowerCase()];
+        if(input.match(regexp)) outputText = easterEggs[regexp];
     }
 
     // Modify output
