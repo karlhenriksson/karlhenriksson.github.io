@@ -80,7 +80,7 @@ const codeToPeople = {
 const easterEggs = {
     /^bånx$/g: "Testa 'Bonx' i stället. Det är den bättre stavningen.",
     /^bonx$/g: "Kom till Karl så får du en gratis kopp choklad. (endast de 3 första som kommer till mig får detta, så du tjänar på att hålla denna funktion hemlig tills efter att du fått din kopp)",
-    /^a*$/g: "Varför skriker du så mycket?",
+    /^aaa*$/g: "Varför skriker du så mycket?",
     /^123$/g: "567×89=???",
     /^1234$/g: "567×89=???",
     /^12345$/g: "567×89=???",
