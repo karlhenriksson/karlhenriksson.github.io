@@ -1,5 +1,5 @@
 "use strict";
-console.log("Version 1.3");
+console.log("Version 1.3.2");
 
 const mainCard = document.getElementById("mainCard");
 const inputField = document.getElementById("codeEntry");
