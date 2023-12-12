@@ -54,7 +54,7 @@ document.getElementById("run").addEventListener("click",
 // https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
 if(!navigator.userAgentData.mobile) {
     document.querySelector("input").addEventListener("change", 
-        ()=>submitCode(inputField.value.toLowerCase())
+        ()=>submitCode(inputField.value.toLowerCase().trim())
     )
 }
 
