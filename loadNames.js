@@ -81,6 +81,7 @@ const easterEggs = {
     "^bånx$": "Testa 'Bonx' i stället. Det är den bättre stavningen.",
     "^bonx$": "Kom till Karl så får du en gratis kopp choklad. (endast de 3 första som kommer till mig får detta, så du tjänar på att hålla denna funktion hemlig tills efter att du fått din kopp)",
     "^aaa*$": "Varför skriker du så mycket?",
+    "^112$": "Lätt att slå!",
     "^1(2(3(4(5(6(7(8(9)?)?)?)?)?)?)?)?$": "567×89=???",
     "^50463$": "1+2+3+4+...+99+100=???",
     "^5050$": "To be or not to be, that is [???]",
