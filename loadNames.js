@@ -92,4 +92,5 @@ const easterEggs = {
     "^admin$": "You have been granted admin rights. Please proceed to <a href='https://imgs.xkcd.com/comics/incident.png'>the admin control panel</a>.",
     "^password$": "You have been granted admin rights. Please proceed to <a href='https://imgs.xkcd.com/comics/incident.png'>the admin control panel</a>.",
     "^baptistsmörgås$": "Yeeeee",
+    "^(ha)+$": "Inget skratt i vårt samhålle minsann!",
 }
