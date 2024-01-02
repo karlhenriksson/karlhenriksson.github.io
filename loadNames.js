@@ -45,36 +45,7 @@ var vänlig titta inte här!
 
 // Stores codes, along with the recipient and the person with the code
 // (keys are all lower case)
-const codeToPeople = {
-    "41491": { giver: "Isabella", recipient: "Tamara" },
-    "63147": { giver: "Tamara", recipient: "Tove" },
-    "50575": { giver: "Tove", recipient: "Janica" },
-    "66722": { giver: "Janica", recipient: "Arvid E" },
-    "46064": { giver: "Arvid E", recipient: "Setayesh" },
-    "79460": { giver: "Setayesh", recipient: "Hannes" },
-    "67020": { giver: "Hannes", recipient: "Vilgot" },
-    "67907": { giver: "Vilgot", recipient: "Emil" },
-    "61786": { giver: "Emil", recipient: "Ines" },
-    "53482": { giver: "Ines", recipient: "Elly" },
-    "27637": { giver: "Elly", recipient: "Vidar" },
-    "82305": { giver: "Vidar", recipient: "Filippa" },
-    "43205": { giver: "Filippa", recipient: "Olof" },
-    "48826": { giver: "Olof", recipient: "Dyar" },
-    "45530": { giver: "Dyar", recipient: "Isac" },
-    "60813": { giver: "Isac", recipient: "Svante" },
-    "30210": { giver: "Svante", recipient: "Jingrui" },
-    "50431": { giver: "Jingrui", recipient: "Tea" },
-    "38206": { giver: "Tea", recipient: "Ludvig" },
-    "34686": { giver: "Ludvig", recipient: "Elsa" },
-    "89451": { giver: "Elsa", recipient: "Ellie" },
-    "90269": { giver: "Ellie", recipient: "Stella" },
-    "72791": { giver: "Stella", recipient: "Matilda" },
-    "53424": { giver: "Matilda", recipient: "Malin" },
-    "60123": { giver: "Malin", recipient: "Sinit" },
-    "47664": { giver: "Sinit", recipient: "Joel" },
-    "25014": { giver: "Joel", recipient: "Arvid S" },
-    "40471": { giver: "Arvid S", recipient: "Isabella" },
-}
+const codeToPeople = {};
 
 // Om du trots allt är här, var vänlig spoila i alla fall inte detta!  /Karl
 const easterEggs = {
